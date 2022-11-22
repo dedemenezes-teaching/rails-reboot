@@ -1,6 +1,8 @@
 <div class="container">
   <h1><%= @football_field.name %></h1>
-  
+
   <p>You can play at this lovelly field located at <%= @football_field.address %></p>
   <p>$<%= @football_field.price %></p>
+
+  <%= link_to 'Book this field',  new_football_field_booking_path(@football_field), class: 'btn btn-primary' %>
 </div>
