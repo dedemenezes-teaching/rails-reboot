@@ -8,7 +8,6 @@
 
 puts 'Cleaning DB'
 
-FootballField.destroy_all
 User.destroy_all
 
 puts 'Creating users'
