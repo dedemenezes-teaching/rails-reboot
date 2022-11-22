@@ -5,7 +5,9 @@
     <div class="card-product">
       <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
       <div class="card-product-infos">
-        <h2><%= field.name %></h2>
+        <%= link_to football_field_path(field) do %>
+          <h2><%= field.name %></h2>
+        <% end %>
         <p><%= field.address %></p>
       </div>
     </div>
