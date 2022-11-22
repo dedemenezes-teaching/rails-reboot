@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>All Football Fields!</h1>
+
+  <% @football_fields.each do |field| %>
+    <div class="card-product">
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+      <div class="card-product-infos">
+        <h2><%= field.name %></h2>
+        <p><%= field.address %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
