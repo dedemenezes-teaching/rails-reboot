@@ -5,5 +5,6 @@ class FootballFieldsController < ApplicationController
 
   def show
     @football_field = FootballField.find(params[:id])
+    @booking = Booking.new
   end
 end
