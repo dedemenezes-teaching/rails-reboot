@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+1. As an user I can see all football fields (#INDEX)
+2. As an user I can see details about one football field
+3. As an user I can book a football field
