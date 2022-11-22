@@ -1,8 +1,5 @@
 <div class="container">
   <h1>New Booking</h1>
 
-  <%= simple_form_for([@football_field, @booking]) do |f| %>
-    <%= f.input :date %>
-    <%= f.submit %>
-  <% end %>
+  <%= render 'form', booking: @booking, football_field: @football_field %>
 </div>

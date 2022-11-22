@@ -4,5 +4,6 @@
   <p>You can play at this lovelly field located at <%= @football_field.address %></p>
   <p>$<%= @football_field.price %></p>
 
-  <%= link_to 'Book this field',  new_football_field_booking_path(@football_field), class: 'btn btn-primary' %>
+  <%#= link_to 'Book this field',  new_football_field_booking_path(@football_field), class: 'btn btn-primary' %>
+  <%= render 'bookings/form', football_field: @football_field, booking: @booking %>
 </div>
